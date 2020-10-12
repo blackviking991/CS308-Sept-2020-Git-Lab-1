@@ -26,6 +26,7 @@ int main(int argc, char *argv[])
 		printf("Sqrt of %d is %f\n", input, sqrt(input));
 	}
 
+	printf("This is branch negative\n");
 	return (0);
 
 } // end main
