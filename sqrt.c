@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 2)
 	{
-		printf("Usage: sqrt input\n\n");
+		printf("DEBUG: Usage: sqrt input\n\n");
 		exit(-1);
 	}
 
@@ -19,14 +19,14 @@ int main(int argc, char *argv[])
 	if (input < 0)
 	{
 		float tmp = sqrt(input * -1);
-		printf("Sqrt of %d is %fi\n", input, tmp);
+		printf("DEBUG: Sqrt of %d is %fi\n", input, tmp);
 	}
 	else
 	{
-		printf("Sqrt of %d is %f\n", input, sqrt(input));
+		printf("DEBUG: Sqrt of %d is %f\n", input, sqrt(input));
 	}
 
-	printf("End of the program, Exiting\n");
+	printf("DEBUG: End of the program, Exiting\n");
 	return (0);
 
 } // end main
